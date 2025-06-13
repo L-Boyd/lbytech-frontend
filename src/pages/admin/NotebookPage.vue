@@ -89,6 +89,13 @@ const markdownFiles = [
   { value: "note4", label: "redis 学习笔记", path: "/notes/redis.md" },
   { value: "note5", label: "算法笔记", path: "/notes/算法笔记.md" },
   { value: "note6", label: "C++笔记", path: "/notes/C++.md" },
+  { value: "note7", label: "docker笔记", path: "/notes/docker.md" },
+  { value: "note8", label: "idea快捷键笔记", path: "/notes/idea快捷键.md" },
+  {
+    value: "note9",
+    label: "Mybatis和plus笔记",
+    path: "/notes/Mybatis(plus).md",
+  },
 ];
 
 const selectedNote = ref(markdownFiles[0].value);
