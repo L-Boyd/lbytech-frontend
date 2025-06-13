@@ -1,11 +1,11 @@
 import axios from "axios";
 
-const myAxious = axios.create({
+const myAxios = axios.create({
   //区分开发和线上环境
   baseURL:
     process.env.NODE_ENV === "development"
       ? "http://localhost:8080"
-      : "www.lbytech.cn",
+      : "http://www.lbytech.cn:8080",
   timeout: 10000,
   withCredentials: true,
 });
@@ -50,4 +50,4 @@ axios.interceptors.response.use(
   }
 );
 
-export default myAxious;
+export default myAxios;
