@@ -49,13 +49,13 @@
         />
       </a-form-item>
       <a-form-item
-        label="请输入编号"
-        name="planetCode"
-        :rules="[{ required: true, message: '请输入编号' }]"
+        label="邀请码"
+        name="inviteCode"
+        :rules="[{ required: true, message: '请输入邀请码' }]"
       >
         <a-input
-          v-model:value="formState.planetCode"
-          placeholder="请输入编号"
+          v-model:value="formState.inviteCode"
+          placeholder="请输入邀请码"
         />
       </a-form-item>
 
@@ -75,14 +75,14 @@ interface FormState {
   userAccount: string;
   userPassword: string;
   checkPassword: string;
-  planetCode: string;
+  inviteCode: string;
 }
 
 const formState = reactive<FormState>({
   userAccount: "",
   userPassword: "",
   checkPassword: "",
-  planetCode: "",
+  inviteCode: "",
 });
 
 const router = useRouter();
