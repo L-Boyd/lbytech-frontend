@@ -1,9 +1,8 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
-import HomeView from "../views/HomeView.vue";
 import HomePage from "@/pages/HomePage.vue";
 import UserLoginPage from "@/pages/user/UserLoginPage.vue";
 import UserRegisterPage from "@/pages/user/UserRegisterPage.vue";
-import UserManagePage from "@/pages/admin/UserManagePage.vue";
+import NotebookPage from "@/pages/admin/NotebookPage.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -22,9 +21,9 @@ const routes: Array<RouteRecordRaw> = [
     component: UserRegisterPage,
   },
   {
-    path: "/admin/userManage",
-    name: "adminUserManage",
-    component: UserManagePage,
+    path: "/admin/notebook",
+    name: "adminNotebook",
+    component: NotebookPage,
   },
 ];
 
