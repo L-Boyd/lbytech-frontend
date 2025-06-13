@@ -37,10 +37,15 @@ getCurrentUser().then((res) => {
 </script>
 
 <style scoped>
+#basicLayout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 #basicLayout .footer {
   background: #efefef;
   text-align: center;
-  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
