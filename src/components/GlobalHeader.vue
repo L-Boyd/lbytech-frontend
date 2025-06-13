@@ -69,15 +69,11 @@ const items = ref<MenuProps["items"]>([
     title: "用户注册",
   },
   {
-    key: "/admin/userManage",
+    // key: "/admin/userManage",
+    key: "/admin/notebook",
     icon: () => h(CrownOutlined),
-    label: "用户管理",
-    title: "用户管理",
-  },
-  {
-    key: "others",
-    label: h("a", { href: "https://www.baidu.com", target: "_blank" }, "百度"),
-    title: "百度",
+    label: "lby学习笔记",
+    title: "lby学习笔记",
   },
 ]);
 </script>
