@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-const msg = "欢迎来到lbytech.cn,您可以看到我的学习笔记";
+const msg = "欢迎来到lbytech.cn";
 </script>
 
 <style scoped>
